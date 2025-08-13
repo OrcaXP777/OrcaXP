@@ -1,0 +1,16 @@
+2) build → docs로 복사 (윈도우)
+bat
+Copy
+Edit
+rmdir /S /Q docs 2>nul
+mkdir docs
+xcopy build docs /E /I /Y
+주의: build는 .gitignore에 있어서 커밋이 안 됩니다. 그래서 docs로 복사하는 거예요.
+
+3) 커밋 & 푸시
+bat
+Copy
+Edit
+git add docs
+git commit -m "Publish to /docs for GitHub Pages"
+git push origin main

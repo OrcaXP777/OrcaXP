@@ -1,7 +1,8 @@
 {
-  "name": "cyboxreact",
+  "name": "OrcaXP",
   "version": "0.1.0",
-  "private": true,
+    "private": true,
+  "homepage": "https://orcapx777.github.io/OrcaXP/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
     "@testing-library/jest-dom": "^5.16.4",
